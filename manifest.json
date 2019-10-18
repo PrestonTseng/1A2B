@@ -1,0 +1,18 @@
+{
+    "short_name": "1A2B",
+    "name": "1A2B",
+    "description": "1A2B小遊戲",
+    "display": "standalone",
+    "orientation": "portrait-primary",
+    "theme_color": "#000000",
+    "background_color": "#FFFFFF",
+
+    "icons": [
+        {
+            "src": "icon.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "./?utm_source=web_app_manifest"
+}

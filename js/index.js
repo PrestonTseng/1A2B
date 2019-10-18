@@ -18,32 +18,11 @@ document.querySelector('.deleteBtn').addEventListener('click', cleanAnswer);
 
 
 function random4Numbers() {
-  var num = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
-  var arr = [];
-
-  for (let i = 0; i < 4; i++) {
-    var random = Math.floor(Math.random() * (num.length));
-    arr.push(num[random]);
-    num.splice(random, 1);
-  }
-  return arr;
+  
 }
 
 function checkAnswer() {
-  if (inputNum.length != 4) {
-    window.alert("沒有4位數，母湯喔!");
-    return;
-  }
-
-  let hint = { A: 0, B: 0 }
-
-  for (let i = 0; i < answer.length; i++) {
-    hint.B += inputNum.find(x => x == answer[i]) ? 1 : 0;
-    hint.B -= inputNum[i] == answer[i] ? 1 : 0;
-    hint.A += inputNum[i] == answer[i] ? 1 : 0;
-  }
-
-  return hint;
+  
 }
 
 function recordInput(e) {

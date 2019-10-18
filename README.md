@@ -1,4 +1,4 @@
-# AABB
-A little game called AABB
+# 1A2B
+A little game called 1A2B
 
-[Demo](http://little-game.surge.sh/html/)
+[Play Game](https://jackytpy.github.io/1A2B/)

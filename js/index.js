@@ -18,11 +18,11 @@ document.querySelector('.deleteBtn').addEventListener('click', cleanAnswer);
 
 
 function random4Numbers() {
-  
+  // finish this function
 }
 
 function checkAnswer() {
-  
+  // finish this function
 }
 
 function recordInput(e) {
